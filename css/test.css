@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+#button 
+            {
+                position: relative;
+
+                top: 74px;
+                height:40px;
+                width:100px;
+                border-radius : 10px;
+
+                background-color: transparent;
+                color: white;
+                border: 0px solid black;
+                font-family: 'TTTtangsbudaejjigaeB';
+                /*background-image: url("../img/buttonsignin.png");*/
+
+                background: #55ffff;
+                background: -webkit-radial-gradient(0% 120%, farthest-corner, #67BDFF, #66FF9E);
+                background:    -moz-radial-gradient(0% 120%, farthest-corner, #67BDFF, #66FF9E);
+                background:      -o-radial-gradient(0% 120%, farthest-corner, #67BDFF, #66FF9E);
+                background:         radial-gradient(farthest-corner at 0% 120%, #67BDFF, #66FF9E);
+
+                background-size: cover;
+                text-align: center;
+                font-size: 13px;
+
+                box-shadow: 0px 0px 10px 1px rgba(5,103,98,0.2);
+            }
+#logintap
+            {
+                height:210px;
+                width:300px;
+                border-radius : 10px;
+
+                border: 0px solid black;
+                background-color: white;
+                text-align: center;
+                justify-content: center;
+                flex-grow: 1;
+                margin: 5px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                box-shadow: 0px 0px 10px 1px rgba(5,103,98,0.2);
+            }
+#idbox
+            {
+                position: relative;
+                top: 47px;
+
+                outline: none;
+                border-radius : 5px;
+                background-color:transparent;
+                border: 1px solid #66D3DE;
+                box-shadow: 0px 0px 3px 1px rgba(103,206,231,0.5) inset;
+
+                height: 27px;
+                width: 200px;
+            }
+#passwordbox
+            {
+                position: relative;
+                top: 58px;
+
+                outline: none;
+                border-radius : 5px;
+                background-color:transparent;
+                border: 1px solid #66D3DE;
+                box-shadow: 0px 0px 3px 1px rgba(103,206,231,0.5) inset;
+
+                height: 27px;
+                width: 200px;
+            }
+#loginstand
+            {
+                text-align: center;
+            }
+
+#allbox
+            {
+                height: 95vh;
+                display: flex;
+                align-items: center;
+            }
+#banner1
+            {   
+                margin: 5px;
+                flex-grow: 1;
+                height:500px;
+                width:275px;
+            }
+#banner2
+            {   
+                margin: 5px;
+                flex-grow: 1;
+                height:500px;
+                width:275px;
+            }
+#banner3
+            {   
+                margin: 5px;
+                flex-grow: 1;
+                height:500px;
+                width:275px;
+            }
+#banner4
+            {   
+                margin: 5px;
+                flex-grow: 1;
+                height:500px;
+                width:275px;
+            }
+#banner5
+            {
+                flex-grow: 1;
+                height: 144px;
+                width: 256px;
+            }
+#banner6
+            {
+                position: relative;
+                top: 5px;
+                flex-grow: 1;
+                height: 144px;
+                width: 256px;
+            }
+#answer
+            {
+                bottom: 230px;
+            }
+footer
+            {
+                text-align: center;
+            }
+main
+            {
+                font-family: 'TTTtangsbudaejjigaeB'
+            }
